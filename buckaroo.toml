@@ -1,0 +1,9 @@
+targets = [ "//:wangle" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/facebook-folly"
+version = "*"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/facebookincubator-fizz"
+version = "*"

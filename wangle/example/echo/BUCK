@@ -1,0 +1,19 @@
+cxx_binary(
+  name = 'client',
+  srcs = [
+    'EchoClient.cpp',
+  ],
+  deps = [
+    '//:wangle',
+  ],
+)
+
+cxx_binary(
+  name = 'server',
+  srcs = [
+    'EchoServer.cpp',
+  ],
+  deps = [
+    '//:wangle',
+  ],
+)
